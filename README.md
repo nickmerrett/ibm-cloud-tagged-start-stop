@@ -92,5 +92,5 @@ ibmcloud ce sub cron create --name cron-vsi-start --destination vsi-start --dest
 
 Turn off at 8pm every day (adjust the schedule as needed)
 ```
-ibmcloud ce sub cron create --name cron-vsi-start --destination vsi-stop --destination-type job --schedule '0 20 * * *' --time-zone "America/Phoenix"
+ibmcloud ce sub cron create --name cron-vsi-stop --destination vsi-stop --destination-type job --schedule '0 20 * * *' --time-zone "America/Phoenix"
 ```
