@@ -21,7 +21,7 @@ I will also note you can point your Code Engine Jobs to a git repository to buil
 
 Build, replace your tag with what ever registry you like
 ```
-podman build -t podman build -t us.icr.io/autoonoff/ibm_vpc:latest .
+podman build -t us.icr.io/autoonoff/ibm_vpc:latest .
 ```
 And then push
 ```
