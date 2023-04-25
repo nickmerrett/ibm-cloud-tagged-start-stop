@@ -32,6 +32,7 @@ instance_ids = []
 #Iterate through the returned search results and look for types of instance, I have assumed what is returned is tagged correctly, but this could also be checked again here if needed
 for result in scan_result:
   if result["type"] == "instance":
+    print("found instance " + result["resource_id"])
     instance_ids.append(result["resource_id"])
  
 # Perform action on list
